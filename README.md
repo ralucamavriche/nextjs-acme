@@ -1,5 +1,3 @@
-# Acme Dashboard (Next.js)
-
 ## Demo
 
 [View Live Demo](https://nextjs-acme-202jkrgpm-ralucamavriches-projects.vercel.app/)
@@ -18,16 +16,20 @@ A modern, full-stack dashboard application built with Next.js, React, and Tailwi
 
 ## Getting Started
 
-1. Install dependencies:
+1. Install pnpm (if you don't have it):
+	```sh
+	npm install -g pnpm
+	```
+2. Install dependencies:
 	```sh
 	pnpm install
 	```
-2. Set up your environment variables (e.g., `POSTGRES_URL`).
-3. Run the development server:
+3. Set up your environment variables (e.g., `POSTGRES_URL`).
+4. Run the development server:
 	```sh
 	pnpm dev
 	```
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Scripts
 - `pnpm dev` — Start the development server
